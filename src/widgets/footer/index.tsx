@@ -65,8 +65,7 @@ export const Footer: FC<IFooter> = () => {
               </div>
             </div>
             <div className={clsx(styles.footer_header_info_item)}>
-              Методична комісія туризму та сфери обслуговування
-            </div>
+              Методична комісія автомобільних та металообробних професій            </div>
           </div>
           <div
             className={clsx(
