@@ -21,7 +21,7 @@ import {Syllabuses} from "./syllabuses"
 export const pages = [
   {
     path: "/",
-    Component: CompositionCC,
+    Component: Home,
     title: "Головна",
   },
   {
