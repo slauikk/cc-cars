@@ -123,7 +123,7 @@ export const Footer: FC<IFooter> = () => {
                   className={clsx(styles.footer_header_contacts_item_icon)}
                 />
                 <div className={clsx(styles.footer_header_contacts_item_title)}>
-                  gruxinatanya@gmail.com
+                  yaroshevskiyromanroman@gmail.com
                 </div>
               </div>
             </div>
