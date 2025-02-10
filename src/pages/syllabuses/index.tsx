@@ -3,7 +3,7 @@ import clsx from "clsx"
 import {FC, useEffect, useState} from "react"
 
 import {Loading} from "@/components/loading"
-
+import {dataContent} from "@/pages/syllabuses/lib/dataContent.tsx"
 import {PageItem} from "../../components/page-item"
 import {PageLayout} from "../../layouts"
 
@@ -25,25 +25,9 @@ export const Syllabuses: FC<ISyllabuses> = () => {
 
   return (
     <PageLayout title="Предмети">
-      {isLoading && <PageItem content={<Loading />} />}
-      {data[0] && (
-        <PageItem
-          content={data.map((e, i) => (
-            <p
-              key={i}
-              className={clsx(styles.Syllabuses_item, !e[1] && styles.title)}
-            >
-              {e[1] ? (
-                <a target="_blank" href={e[1]}>
-                  {e[0]}
-                </a>
-              ) : (
-                <>{e[0]}</>
-              )}
-            </p>
-          ))}
-        />
-      )}
+      {dataContent.map((e, i) => (
+        <PageItem {...e} key={i} />
+      ))}
     </PageLayout>
   )
 }

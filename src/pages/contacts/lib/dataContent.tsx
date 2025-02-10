@@ -8,6 +8,6 @@ export const dataContacts: IContact[] = [
   {
     img: Img_fake,
     name: "Ярошевський Роман Романович",
-    items: ["Голова методичної комісії", "yaroshevskiyromanroman@gmail.com"],
+    items: ["Голова методичної комісії", "yaroshevskiyromanroman@gmail.com", "Тел. 0986351635"],
   },
 ]

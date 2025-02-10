@@ -93,7 +93,7 @@ export const Footer: FC<IFooter> = () => {
                   className={clsx(styles.footer_header_contacts_item_icon)}
                 />
                 <div className={clsx(styles.footer_header_contacts_item_title)}>
-                  068 358 22 26, 43-34-02
+                  098 635 16 35
                 </div>
               </div>
             </div>
