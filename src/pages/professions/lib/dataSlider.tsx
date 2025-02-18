@@ -116,3 +116,5 @@ export const dataSponsorsSource_p: ISponsors[] = [
   {img: "/assets/images/professions/працівник/3.jpg"},
 ]
 export const dataSponsors_p = getSliderElements(dataSponsorsSource_p)
+
+
