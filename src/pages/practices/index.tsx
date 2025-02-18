@@ -25,25 +25,9 @@ export const Practices: FC<IPractices> = () => {
 
   return (
     <PageLayout title="Професійно-практична підготовка">
-      {isLoading && <PageItem content={<Loading />} />}
-      {data[0] && (
-        <PageItem
-          content={data.map((e, i) => (
-            <p
-              key={i}
-              className={clsx(styles.Practices_item, !e[1] && styles.title)}
-            >
-              {e[1] ? (
-                <a target="_blank" href={e[1]}>
-                  {e[0]}
-                </a>
-              ) : (
-                <>{e[0]}</>
-              )}
-            </p>
-          ))}
-        />
-      )}
+      {dataContent.map((e, i) => (
+        <PageItem {...e} key={i} />
+      ))}
     </PageLayout>
   )
 }
