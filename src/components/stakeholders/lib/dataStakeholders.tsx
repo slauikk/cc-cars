@@ -3,6 +3,8 @@ import Logo_2 from "@/assets/stakeholders/schreder.jpeg"
 import Logo_3 from "@/assets/stakeholders/carinex.png"
 import Logo_4 from "@/assets/stakeholders/biol.png"
 import Logo_5 from "@/assets/stakeholders/123.gif"
+import Logo_6 from "@/assets/stakeholders/kamaz.png"
+import Logo_7 from "@/assets/stakeholders/autoPalace.png"
 
 
 export const dataStakeholders = [
@@ -63,7 +65,7 @@ export const dataStakeholders = [
     ],
   },
   {
-    logo: Logo_5,
+    logo: Logo_7,
     title: "Автопалац Тернопіль",
     info: [
       "надайте інформацію",
@@ -72,7 +74,7 @@ export const dataStakeholders = [
     ],
   },
   {
-    logo: Logo_5,
+    logo: Logo_6,
     title: "КАМАЗ Центр",
     info: [
       "надайте інформацію",
