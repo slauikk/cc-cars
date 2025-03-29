@@ -17,6 +17,7 @@ import {SocialWorker} from "./social-worker"
 import {Specialty} from "./specialty"
 import {StudentLeisure} from "./student-leisure-time"
 import {Syllabuses} from "./syllabuses"
+import {Workbench} from "./workbench"
 
 export const pages = [
   {
@@ -112,6 +113,11 @@ export const pages = [
   {
     path: "/social-worker",
     Component: SocialWorker,
+    title: "Наші",
+  },
+  {
+    path: "/workbench",
+    Component: Workbench,
     title: "Наші",
   },
 ]

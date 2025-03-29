@@ -7,11 +7,11 @@ import {PageLayout} from "../../layouts"
 import styles from "./index.module.scss"
 import {dataContent} from "./lib/dataContent"
 
-interface ISocialWorker {}
+interface IWorkbench{}
 
-export const SocialWorker: FC<ISocialWorker> = () => {
+export const Workbench: FC<IWorkbench> = () => {
   return (
-    <PageLayout title={<>Освітня програма "Оператор верстатів з програмним керуванням"</>}>
+    <PageLayout title={<>Освітня програма "Верстатник широкого профілю"</>}>
       {dataContent.map((e, i) => (
         <PageItem {...e} key={i} />
       ))}
