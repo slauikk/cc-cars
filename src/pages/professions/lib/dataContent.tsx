@@ -4,7 +4,7 @@ import { Img } from "@/components/img";
 
 
 
-import { dataSponsors_a, dataSponsors_b, dataSponsors_h_1, dataSponsors_h_2, dataSponsors_h_3, dataSponsors_h_4, dataSponsors_h_5, dataSponsors_h_6, dataSponsors_h_7, dataSponsors_p } from "./dataSlider";
+import { dataSponsors_b, dataSponsors_h_1, dataSponsors_h_2, dataSponsors_h_3, dataSponsors_Aa } from "./dataSlider";
 
 
 export const dataContent = [
@@ -143,6 +143,22 @@ export const dataContent = [
     ),
   },
   {
+    content: (
+      <>
+        <Slider items={dataSponsors_Aa} type="row"  />
+      </>
+    ),
+  },
+  {
+    content: (
+      <>
+        <a href="/assets/pdf/Якісний%20Верстатник%20(1).pdf">
+          Кадрове забезпечення
+        </a>
+      </>
+    ),
+  },
+  {
     title: "Професія 8211 “Оператор верстатів з програмним керуванням” ",
     content: (
       <>
@@ -168,6 +184,15 @@ export const dataContent = [
     content: (
       <>
         <p>Ця професія є основою розвитку машинобудівної галузі. А висококваліфіковані фахівці завжди потрібні. Їхня праця добре оплачується.</p>
+      </>
+    ),
+  },
+  {
+    content: (
+      <>
+        <a href="/assets/pdf/Якісний%20склад%20оператор%20верстатів%20з%20програмним%20керуванням.pdf">
+          Кадрове забезпечення
+        </a>
       </>
     ),
   },
