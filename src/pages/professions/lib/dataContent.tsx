@@ -4,7 +4,7 @@ import { Img } from "@/components/img";
 
 
 
-import { dataSponsors_b, dataSponsors_h_1, dataSponsors_h_2, dataSponsors_h_3, dataSponsors_Aa } from "./dataSlider";
+import { dataSponsors_b, dataSponsors_h_1, dataSponsors_h_2, dataSponsors_h_3, dataSponsors_Aa, dataSponsors_p} from "./dataSlider";
 
 
 export const dataContent = [
@@ -184,6 +184,13 @@ export const dataContent = [
     content: (
       <>
         <p>Ця професія є основою розвитку машинобудівної галузі. А висококваліфіковані фахівці завжди потрібні. Їхня праця добре оплачується.</p>
+      </>
+    ),
+  },
+  {
+    content: (
+      <>
+        <Slider items={dataSponsors_p} type="row"  />
       </>
     ),
   },

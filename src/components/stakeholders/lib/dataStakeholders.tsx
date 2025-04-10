@@ -59,8 +59,9 @@ export const dataStakeholders = [
     logo: Logo_5,
     title: "АТ \"Технологія\"",
     info: [
-      "надайте інформацію",
-      "",
+      <a href="https://technologia.com.ua/" target="_blank">
+        https://technologia.com.ua/
+      </a>,
 
     ],
   },
@@ -68,18 +69,14 @@ export const dataStakeholders = [
     logo: Logo_7,
     title: "Автопалац Тернопіль",
     info: [
-      "надайте інформацію",
-      "",
-
+      "Тернопіль, вулиця Микулинецька, 29А",
     ],
   },
   {
     logo: Logo_6,
     title: "КАМАЗ Центр",
     info: [
-      "надайте інформацію",
-      "",
-
+      "с.Біла, вулиця Бродівська-бічна, 8",
     ],
   },
 ]
