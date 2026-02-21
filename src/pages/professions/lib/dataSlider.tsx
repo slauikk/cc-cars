@@ -127,3 +127,14 @@ export const dataSponsorsSource_Aa: ISponsors[] = [
   {img: "/assets/images/professions/5/5.jpg"},
 ]
 export const dataSponsors_Aa = getSliderElements(dataSponsorsSource_Aa)
+
+
+export const dataSponsorsSource_Ab: ISponsors[] = [
+  {img: "/assets/images/professions/7/1.jpg"},
+  {img: "/assets/images/professions/7/2.jpg"},
+  {img: "/assets/images/professions/7/3.jpg"},
+  {img: "/assets/images/professions/7/4.jpg"},
+  {img: "/assets/images/professions/7/5.jpg"},
+  {img: "/assets/images/professions/7/6.jpg"},
+]
+export const dataSponsors_Ab = getSliderElements(dataSponsorsSource_Ab)
