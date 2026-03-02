@@ -18,6 +18,7 @@ import {Specialty} from "./specialty"
 import {StudentLeisure} from "./student-leisure-time"
 import {Syllabuses} from "./syllabuses"
 import {Workbench} from "./workbench"
+import {FlexographicPrinterProgram} from "./flexographic-printer-program"
 
 export const pages = [
   {
@@ -118,6 +119,11 @@ export const pages = [
   {
     path: "/workbench",
     Component: Workbench,
+    title: "Наші",
+  },
+  {
+    path: "/flexographic-printer-program",
+    Component: FlexographicPrinterProgram,
     title: "Наші",
   },
 ]

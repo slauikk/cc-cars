@@ -48,6 +48,10 @@ export const dataHeader = [
         title: "Освітня програма Верстатник широкого профілю",
         path: "/workbench",
       },
+      {
+        title: "Освітня програма Друкар флексографічного друкування",
+        path: "/flexographic-printer-program",
+      },
     ],
   },
   {
