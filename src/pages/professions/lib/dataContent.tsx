@@ -272,7 +272,7 @@ export const dataContent = [
   {
     content: (
       <>
-        <a href="/assets/pdf/Якісне%20кадрове%20забезпечення%20друкар2.pdf">
+        <a href="/assets/pdf/якісне забезпечення Друкар.pdf">
           Кадрове забезпечення
         </a>
       </>
